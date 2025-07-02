@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "ms-vscode.vscode-typescript-next",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-json",
+    "formulahendry.auto-rename-tag",
+    "ms-vscode.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "ms-vscode.vscode-json"
+  ]
+}

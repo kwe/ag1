@@ -1,0 +1,38 @@
+{
+  "typescript.preferences.renameShorthandProperties": false,
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "typescript": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "html.suggest.html5": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "typescript": "html",
+    "html": "html"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["class\\s*=\\s*[\"'`]([^\"'`]*)[\"'`]", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["[class]\\s*=\\s*[\"'`]([^\"'`]*)[\"'`]", "[\"'`]([^\"'`]*)[\"'`]"]
+  ],
+  "files.associations": {
+    "*.html": "html"
+  },
+  "angular.enable-strict-mode-prompt": false,
+  "angular.experimental-ivy": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.component.ts": "$(capture).component.html, $(capture).component.scss, $(capture).component.css, $(capture).component.spec.ts",
+    "*.service.ts": "$(capture).service.spec.ts",
+    "*.module.ts": "$(capture)-routing.module.ts"
+  }
+}
